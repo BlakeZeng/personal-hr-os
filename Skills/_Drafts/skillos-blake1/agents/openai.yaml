@@ -1,0 +1,4 @@
+interface:
+  display_name: "Blake1 — SkillOS Executive"
+  short_description: "Coordinate SkillOS priorities and delivery"
+  default_prompt: "Use $skillos-blake1 to coordinate my SkillOS priorities and verify the result."

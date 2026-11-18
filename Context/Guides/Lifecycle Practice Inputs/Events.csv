@@ -1,0 +1,8 @@
+EventID,PersonRef,EventType,EffectiveDate,CurrentValue,ProposedValue,Documents
+E01,P101,joining,2026-12-01,,Operations,document list supplied
+E02,P102,movement,2026-12-02,Support,Operations,
+E03,P103,offboarding,2026-12-03,Operations,Inactive,
+E04,P104,joining,2026-12-04,,Finance,
+E05,P105,movement,2026-12-05,Sales,Support,
+E06,P106,offboarding,2026-12-06,Support,Inactive,
+E07,P999,joining,2026-12-07,,Support,document list supplied

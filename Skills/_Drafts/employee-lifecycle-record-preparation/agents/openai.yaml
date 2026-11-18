@@ -1,0 +1,4 @@
+interface:
+  display_name: "Employee lifecycle record preparation"
+  short_description: "Prepare lifecycle record handovers from evidence"
+  default_prompt: "Use $employee-lifecycle-record-preparation to prepare a fictional lifecycle record handover."

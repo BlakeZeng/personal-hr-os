@@ -1,0 +1,7 @@
+.DS_Store
+__pycache__/
+*.pyc
+/Work/Records/*
+!/Work/Records/.gitkeep
+/Work/Outputs/
+/.agents/
