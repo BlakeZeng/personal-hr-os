@@ -1,12 +1,12 @@
 {
-  "edition": "Personal HR OS · Employee Lifecycle Preview 0.1",
+  "edition": "Personal HR OS · Employee Lifecycle Preview 0.1.1",
   "empty_directories": [
     "Skills/Active",
     "Work/Records",
     "_Archive"
   ],
   "files": {
-    "AGENTS.md": "6d04f470bc772e3f9e02b18ff87e284212c9e9699abbcd830e778b700a6c7419",
+    "AGENTS.md": "b19eeecdf81e272ac098097326019fe984b03e7de6772a2e6d1b98c58f9f50ba",
     "Context/Guides/Lifecycle Pilot.md": "4cacc6103577d8d983ca0d1ad520dd606f91056fb213297fe1b31ee313349942",
     "Context/Guides/Lifecycle Practice Inputs/Events.csv": "4d2739e5be2d24838ae5358249cf916c29eac7a784e40f7ddc5dc106e16313c6",
     "Context/Guides/Lifecycle Practice Inputs/Reference.csv": "a83202793f746909fd32fd1eb9df5e96c99f8710df10459796bd6e2eb7b647c7",
@@ -17,8 +17,8 @@
     "Experience/Experience Index.md": "856f936e504606309dc1c441f4b447fcf76dce5d69a4001932730e8f70bac32b",
     "Idea Bank.md": "3a10d90fb2b84302a8b5b285dd864e5fe043fd49861f199f08af0e40e8631cf4",
     "LICENSE": "460d79e6faa6b2f7f08ac3cfdb0b4a17b5200053447efe32bc7539dea2525447",
-    "NOTICE.md": "2414335dc2738cc85fda66135641167990549d6500856c2cdc05723a126c40ee",
-    "README.md": "79153d8880aa4e095ba8b2bdd7c647fb4458553e72eb0dd4305be065eaf50477",
+    "NOTICE.md": "b38f97bc57ef27978142674958bf64dd40bd457822ce60d3b601dfa1e5aee1ae",
+    "README.md": "8e01fd652c9aa9bcbe2af699618368786cd195a94e7bdbdc2c08d3c19fab4ead",
     "Role Index.md": "1204352a826a32b03600fbf678d831781fe3b5d4d78463016bc12e628838a39d",
     "Skill Index.md": "29c26de79aed00ee3df79c39cb5c5c95fdcdf8d1b12b5593de23ac842065b6d9",
     "Skills/_Drafts/employee-lifecycle-record-preparation/SKILL.md": "856002fc449232fc96f7b52d47ff2cb5ee23f58a31b5df6c5ebf779c34e8d310",

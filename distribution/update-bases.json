@@ -1,0 +1,39 @@
+{
+  "base": {
+    "AGENTS.md": "6d04f470bc772e3f9e02b18ff87e284212c9e9699abbcd830e778b700a6c7419",
+    "Context/Guides/Lifecycle Pilot.md": "4cacc6103577d8d983ca0d1ad520dd606f91056fb213297fe1b31ee313349942",
+    "Context/Guides/Lifecycle Practice Inputs/Events.csv": "4d2739e5be2d24838ae5358249cf916c29eac7a784e40f7ddc5dc106e16313c6",
+    "Context/Guides/Lifecycle Practice Inputs/Reference.csv": "a83202793f746909fd32fd1eb9df5e96c99f8710df10459796bd6e2eb7b647c7",
+    "Context/Guides/Lifecycle Practice Inputs/Request.md": "ba7084f0feaea8081744c17e97e4cb1daf5c5797a2a54b90cea4f9e0c06dc13b",
+    "Context/Guides/Lifecycle Practice Inputs/Rules.md": "fbadc62b0ad7f8f9f5e843b71b0a558a7fb0dc17f8f86d607186df67da0dd397",
+    "LICENSE": "460d79e6faa6b2f7f08ac3cfdb0b4a17b5200053447efe32bc7539dea2525447",
+    "NOTICE.md": "2414335dc2738cc85fda66135641167990549d6500856c2cdc05723a126c40ee",
+    "README.md": "79153d8880aa4e095ba8b2bdd7c647fb4458553e72eb0dd4305be065eaf50477",
+    "Role Index.md": "1204352a826a32b03600fbf678d831781fe3b5d4d78463016bc12e628838a39d",
+    "Skill Index.md": "29c26de79aed00ee3df79c39cb5c5c95fdcdf8d1b12b5593de23ac842065b6d9",
+    "Skills/_Drafts/employee-lifecycle-record-preparation/SKILL.md": "856002fc449232fc96f7b52d47ff2cb5ee23f58a31b5df6c5ebf779c34e8d310",
+    "Skills/_Drafts/employee-lifecycle-record-preparation/agents/openai.yaml": "f87bbfbf5823d5e4aa731aafc31fd4c4fb4252196891454fcc32b9c1ad8a81e3",
+    "Skills/_Drafts/skillos-blake1/SKILL.md": "afede79d660a11a7ae0353fed3936203508c560ed826bd1f10792623ead2025e",
+    "Skills/_Drafts/skillos-blake1/agents/openai.yaml": "f0fb91eb8face329f13540c4ce43cdb14bd67f522d947a55583140ef3467f7ad",
+    "Work/Templates/Controlled Reference.md": "aa552244af9364bfa4cc78ba6490f28131ce2c90de9ce76571f2789439ee68ed",
+    "Work/Templates/Lifecycle Record Handover.md": "4d814a7257f67f305d4a22ba3d27df4650ce8927a4f3dccc1918f7ed72f1b4b7",
+    "Work/Templates/Work Record.md": "a7017a028583e639d048fae3e67a86781a8bbc87c2a4c852492bddc82983f75d"
+  },
+  "releases": {
+    "0b4abc7bb8334151872536b21230bd7fe27b525b": {},
+    "9c9490fdae57db5f684ea831fe9220f3e3ca2b5b": {
+      "Context/Guides/Lifecycle Pilot.md": "85783f25540253216d54a6a3c7a63b65119851d28fda2dd60af940b7e381104c",
+      "Skill Index.md": "4fad23042d841ba6f27006fc3eba3ed197ddc5d405e80448e85184b5c9785f4a",
+      "Skills/_Drafts/skillos-blake1/SKILL.md": "534538fe725b82083c3a35d3227248e0e9214af21984ea18fcec79d7847c1dc0"
+    },
+    "f04182cdd2f05b8b43d29dfddc9eb4ad9c8834d8": {
+      "AGENTS.md": "3746825e2a3b8d947fbd118c1783e19057e9283fed2800d0366ca00fe6b4b4c0",
+      "Context/Guides/Lifecycle Pilot.md": "ce1b6d4f40022f1d73e99bf5e214ce657a448d39b56b43d4692780a0874cdd1f",
+      "NOTICE.md": "ddd1ed6679a6fc8f73cab9cf2cb37820b5a5ff29a5557247002a3626475965b1",
+      "README.md": "ded92ace4205c04e886239a9daeb94719f1eba1cabbbf9edbb3827615b2540f1",
+      "Skill Index.md": "4fad23042d841ba6f27006fc3eba3ed197ddc5d405e80448e85184b5c9785f4a",
+      "Skills/_Drafts/skillos-blake1/SKILL.md": "bc8efec1d354fd2006de011efe76ae1a5803e9efe1e7b887773b3ad55e875828",
+      "Skills/_Drafts/skillos-blake1/agents/openai.yaml": "43853316abd546caba10789a446328a8cc885989515998f12076afd51986dd3e"
+    }
+  }
+}

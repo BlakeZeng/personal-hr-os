@@ -38,6 +38,26 @@ Open the handover link in Blake1’s reply. You can also open `Work/Outputs/SSC-
 
 [Blank handover template](Work/Templates/Lifecycle%20Record%20Handover.md) · [Fictional input and case instructions](Context/Guides/Lifecycle%20Pilot.md) · [Included skills](Skill%20Index.md)
 
+## Update an existing workspace
+
+Open the existing private folder as a project in Codex and paste this request:
+
+> Update this Personal HR OS workspace in place from https://github.com/BlakeZeng/personal-hr-os. Keep my organisation profile, case index and saved handovers.
+
+Codex downloads the current release separately and runs its updater against the folder you already use. Your organisation profile, case index, case records and saved handovers stay in place. If you edited a file supplied with the OS, the updater keeps your edit. If the new release also changes that file, or needs a new file path that already contains different local content, the updater stops before applying changes and lists the affected paths. Keep a copy of your work while resolving the conflict before trying again. After a successful update, start a fresh chat in the same project.
+
+**For Codex handling an update:** Use the current project if it is the user's private Personal HR OS workspace. Otherwise ask for the existing workspace path. Fetch a fresh copy of this repository outside that workspace, inspect its installer and run `python3 install.py --update` with the existing workspace path as its argument. Report the folder you updated, the updater's result and any paths it kept for review. If the updater stops, report its reason and preserve the existing folder.
+
+### Manual update
+
+On Mac or Linux with Git and Python 3.9 or later, replace the example workspace path below with the path you originally chose.
+
+```sh
+release_dir=$(mktemp -d)
+git clone --depth 1 https://github.com/BlakeZeng/personal-hr-os.git "$release_dir/personal-hr-os"
+python3 "$release_dir/personal-hr-os/install.py" --update "$HOME/Documents/My HR Workspace"
+```
+
 ## Scope and licence
 
 This source-available preview supports local file practice on fictional data. Its two Draft skills prepare evidence for HR review. Human owners retain employment decisions, source corrections and receiving acceptance. Both a real employee-system update and the use of real people’s data require separate local authority.
