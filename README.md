@@ -4,7 +4,17 @@ Build your own AI workspace for HR, starting with employee onboarding. In this p
 
 ## Install for Codex
 
-Use a Mac or Linux computer with Python 3.9 or later, Git, and a signed-in Codex app or CLI. Open a terminal and run:
+On a Mac or Linux computer with Git, Python 3.9 or later, and a signed-in Codex app or CLI, paste this into Codex:
+
+> Install Personal HR OS from https://github.com/BlakeZeng/personal-hr-os. Ask me where to put my private workspace.
+
+Reply with the path for a new folder. For example, if your Documents folder exists, you could choose `~/Documents/My HR Workspace`. Codex will give you the folder to open as a project. It contains both skills, the fictional inputs, and a place for your case records.
+
+**For Codex handling setup:** Ask for the destination before creating the workspace. If someone shares only the link, first ask whether they want to install it. After they choose a new folder in an existing parent, fetch this public repository into a separate temporary checkout. Inspect and run its `install.py` with their choice as the single workspace argument. Use the project installer so both skills and their templates stay together. Report the verified install location, give the user a clickable local link to its README, and invite them to open that folder in Codex for the first case. If the destination exists, leave it in place and ask for a new folder name.
+
+### Manual installation
+
+If you prefer the terminal, run:
 
 ```sh
 git clone https://github.com/BlakeZeng/personal-hr-os.git
@@ -16,15 +26,15 @@ Choose a different new private folder if you prefer. Its parent must already exi
 
 ## Run your first onboarding case
 
-Open **My Personal HR OS** as a project in Codex and start a fresh chat. Paste this request:
+Open the **private folder you chose** as a project in Codex. Start a fresh chat and say:
 
-> Use the project’s $skillos-blake1 and $employee-lifecycle-record-preparation to run the fictional onboarding case. Follow Context/Guides/Lifecycle Pilot.md and the BASE request for all event rows. I authorise saving the case record, one Case Index entry and the draft handover in this private workspace. Reopen the saved handover, tell me which events are ready for HR review and which need correction, and link me to the file.
+> Blake1, run the sample onboarding case.
 
-If prompted to trust the project, review the folder you chose. If you already have a skill named Blake1, confirm Codex selects the copy inside this project. Both discovery links live in `.agents/skills/` and resolve to the local `Skills/_Drafts/` folder.
+Asking Blake1 to run the sample tells it to save the fictional case record, its index entry, and a draft handover in this workspace. Blake1 chooses the employee lifecycle skill, checks the saved handover, and returns a link you can open.
 
 ## Find the handover
 
-Open `Work/Outputs/SSC-T-20261117-001-lifecycle-handover.md` **in My Personal HR OS**. Codex creates it when the case runs. It should account for all seven events, show the proposed fields, explain each hold, and name the source owner and receiving HR reviewer. The companion record is `Work/Records/SSC-T-20261117-001.md`. An unchanged repeat reuses the same case and index entry.
+Open the handover link in Blake1’s reply. You can also open `Work/Outputs/SSC-T-20261117-001-lifecycle-handover.md` in your private folder. Codex creates it when the case runs. It should account for all seven events, show the proposed fields, explain each hold, and name the source owner and receiving HR reviewer. The companion record is `Work/Records/SSC-T-20261117-001.md`. An unchanged repeat reuses the same case and index entry.
 
 [Blank handover template](Work/Templates/Lifecycle%20Record%20Handover.md) · [Fictional input and case instructions](Context/Guides/Lifecycle%20Pilot.md) · [Included skills](Skill%20Index.md)
 
